@@ -1,0 +1,5 @@
+c:\users\2015\documents\visual studio 2013\Projects\ID_RESTAPI\IdVerify\bin\Debug\IdVerify.dll
+c:\users\2015\documents\visual studio 2013\Projects\ID_RESTAPI\IdVerify\bin\Debug\IdVerify.pdb
+c:\users\2015\documents\visual studio 2013\Projects\ID_RESTAPI\IdVerify\obj\Debug\IdVerify.dll
+c:\users\2015\documents\visual studio 2013\Projects\ID_RESTAPI\IdVerify\obj\Debug\IdVerify.pdb
+c:\users\2015\documents\visual studio 2013\Projects\ID_RESTAPI\IdVerify\obj\Debug\IdVerify.Library.csprojResolveAssemblyReference.cache

@@ -31,7 +31,7 @@ namespace IdVerify.library
                 RandomGender();
                 RandomCitizen();
                 RandomRacial();
-                _helper.GetControlDigit(_date + _gender + _citizen + _race);
+                ControlDigit();
                 NewID = _date + _gender + _citizen + _race +_checkbit;
             }
             catch 

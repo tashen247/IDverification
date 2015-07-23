@@ -83,7 +83,7 @@ namespace IdVerify.library
                 throw new Exception("Not valid checkbit");
             }
 
-            if (_validDob && _validGender && _validCitizen && _validRace)//  && _validCheckbit)
+            if (_validDob && _validGender && _validCitizen && _validRace  && _validCheckbit)
                 _response = " ID Number is Valid";
             else
                 _response = "Sorry this is not a Valid ID Number  ";
@@ -190,7 +190,10 @@ namespace IdVerify.library
 
             try
             {
-                _checkbit = _helper.GetControlDigit(_id.ToString());
+                GenerateNewId id = new GenerateNewId();
+                id.NewID = _id;
+                var result  = id.ControlDigit();
+                _checkbit = int.Parse(id._checkbit);
 
                 if (_checkbit == int.Parse(_id.ToString().Substring(11, 1)))
                     Success = true;

@@ -24,7 +24,7 @@
                                     @Html.Label("IDnumber")
                                 </td>
                                 <td>
-                                    @Html.TextBox("IDnumber")
+                                    @Html.TextBoxFor(Model => Model.IDnumber)
                                 </td>
                             </tr>
 
@@ -55,7 +55,7 @@
 
 
 
-<div id="body">
+@*<div id="body">
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
@@ -73,9 +73,9 @@
     <input type="text" id="idno" value="@Model.IDnumber">
     <button>Validate</button>
     <label id="result">@Model.result</label>
-</div>
+</div>*@
 
-@section{
+@section
       <script>
           $(document).ready(function () {
               $("#idno").keydown(function (e) {
